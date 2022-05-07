@@ -19,7 +19,8 @@ export default siteConfig({
   // social usernames (optional)
   twitter: '',
   github: 'angtian',
-  linkedin: '',
+  linkedin: 'angtian-wang-45977921b',
+  googlescholar: 'YR7re-cAAAAJ&hl',
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
