@@ -84,6 +84,17 @@ export const FooterImpl: React.FC = () => {
           </a>
         )}
 
+        {config.googlescholar && (
+          <a
+            className={styles.googlescholar}
+            href={`https://scholar.google.com/citations?user=/${config.googlescholar}`}
+            title={`GoogleScholar ${config.author}`}
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+          </a>
+        )}
+
         {config.linkedin && (
           <a
             className={styles.linkedin}

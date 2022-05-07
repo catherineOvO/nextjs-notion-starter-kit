@@ -37,7 +37,7 @@ const socialLinks: SocialLink[] = [
 
   config.googlescholar && {
     name: 'google-scholar',
-    href: `https://scholar.google.com/citations?hl=en&user=/${config.googlescholar}`,
+    href: `https://scholar.google.com/citations?user=/${config.googlescholar}`,
     title: `GoogleScholar @${config.googlescholar}`,
     icon: (
       <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'>
