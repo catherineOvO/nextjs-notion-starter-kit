@@ -5,6 +5,7 @@ import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 import { FaLinkedin } from '@react-icons/all-files/fa/FaLinkedin'
 import { IoSunnyOutline } from '@react-icons/all-files/io5/IoSunnyOutline'
 import { IoMoonSharp } from '@react-icons/all-files/io5/IoMoonSharp'
+import { SiGooglescholar } from '@react-icons/all-files/si/SiGooglescholar'
 
 import { useDarkMode } from 'lib/use-dark-mode'
 import * as config from 'lib/config'
@@ -92,6 +93,7 @@ export const FooterImpl: React.FC = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
+            <SiGooglescholar />
           </a>
         )}
 
